@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Café du matin</title>
+
+    <script src="js/bootstrap.bundle.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <!-- Barre de navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container ps-5 pe-5">
+                <!-- Logo à gauche -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo_cafe_du_matin.webp" alt="Logo Bootstrap" class="d-inline-block align-text-top"
+                        id="logo">
+                </a>
+
+                <!-- Bouton hamburger -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Liens de navigation -->
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Bannière -->
+    <div class="container p-0 mt-1" id="up">
+        <div class="d-flex justify-content-center align-items-center" id="banner">
+            <div class="col-12 text-center text-white bg-dark rounded-4 p-4">
+                <h1>Commencez bien votre journée avec nous</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Le menu -->
+
+    <div class="container my-5 ps-5 pe-5">
+        <h2 class="text-center mb-4 fw-bold">Notre menu</h2>
+
+        <div class="row g-4">
+
+            <!-- Carte 1 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card rounded shadow-sm h-100">
+                    <img src="img/espresso.webp" class="card-img-top rounded-top" alt="expresso">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Espresso</h5>
+                        <p class="card-text text-center">Un petit café corsé pour bien démarrer la journée.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 2 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card rounded shadow-sm h-100">
+                    <img src="img/latte.webp" class="card-img-top rounded-top" alt="Café 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Latte</h5>
+                        <p class="card-text text-center">Un mélange onctueux de café et de lait.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 3 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card rounded shadow-sm h-100">
+                    <img src="img/croissant.webp" class="card-img-top rounded-top" alt="Café 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Croissant</h5>
+                        <p class="card-text text-center">Fraîchement sorti du four chaque matin.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 4 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card rounded shadow-sm h-100">
+                    <img src="img/muffin.webp" class="card-img-top rounded-top" alt="Café 4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Muffin</h5>
+                        <p class="card-text text-center">Moelleux et savoureux, parfait avec un café.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Les témoignages -->
+
+        <div class="container mb-0 pb-5 pt-3 ps-5 pe-5 mt-5" id="temoignages">
+            <h2 class="text-center mb-4 fw-bold">Témoignages</h2>
+
+            <div class="row justify-content-center g-4">
+
+                <!-- Carte 1 -->
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card rounded shadow-sm h-100">
+                        <div class="card-body">
+                            <p class="card-text text-center fst-italic fs-6">"Un endroit chaleureux avec un café incroyable
+                                !"</p>
+                            <p class="card-text text-center fw-bold">- Océane S.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte 2 -->
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card rounded shadow-sm h-100">
+                        <div class="card-body">
+                            <p class="card-text text-center fst-italic fs-6">"Le latte et les croissants sont mes préférés.
+                                Je recommande vivement."</p>
+                            <p class="card-text text-center fw-bold">- Sacha R.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte 3 -->
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card rounded shadow-sm h-100">
+                        <div class="card-body">
+                            <p class="card-text text-center fst-italic fs-6">"Ambiance cosy et service impeccable. J'y vais
+                                tous les matins."</p>
+                            <p class="card-text text-center fw-bold">- Raphaël S.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Le footer -->
+    
+        <footer class="bg-dark text-white text-center p-5 mt-0">
+            <div class="container">
+                <p class="mb-0">© 2025 Café du matin - Tous droits réservés.</p>
+                <p class="mb-0">Suivez-nous sur nos réseaux sociaux</p>
+            </div>
+
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+/* LES POLICES DE CARACTERES */
+@font-face {
+    font-family: 'PlaypenSansDeva';
+    src: url('../font/PlaypenSansDeva-VariableFont_wght.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlaywriteHu';
+    src: url('../font/PlaywriteHU-VariableFont_wght.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'PlaywriteHu', sans-serif; /* Police titre principal*/
+    font-size: 3.5rem; /* Taille du titre principal */
+    font-weight: 400; /* Poids du titre principal */
+}
+
+h2,
+h5 {
+    font-family: 'PlaypenSansDeva', sans-serif; /* Police spécifique pour les titres h2 et h5 */
+}
+
+/* LE LOGO */
+#logo {
+    width: 100px; /*La taille du logo */
+    height: auto; /* Maintient les proportions du logo */
+}
+
+/* LA BANNIERE */
+#up {
+    background-image: url('../img/coffee-hero.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    min-height: 400px;
+    /* position: relative; */
+}
+
+#banner {
+    width: 95%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 400px; /* même hauteur que #up */
+}
+
+/* COULEUR DU BODY */
+#temoignages {
+    background-color: #D3D3D3; /* Couleur de fond du body */
+
+
+}
+
+
