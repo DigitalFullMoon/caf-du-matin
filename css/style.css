@@ -14,27 +14,32 @@
 }
 
 h1 {
-    font-family: 'PlaywriteHu', sans-serif; /* Police titre principal*/
-    font-size: 3.5rem; /* Taille du titre principal */
-    font-weight: 400; /* Poids du titre principal */
+    font-family: 'PlaywriteHu', sans-serif;
+    /* Police titre principal*/
+    font-size: 3.5rem;
+    /* Taille du titre principal */
+    font-weight: 400;
+    /* Poids du titre principal */
 }
 
 h2,
 h5 {
-    font-family: 'PlaypenSansDeva', sans-serif; /* Police spécifique pour les titres h2 et h5 */
+    font-family: 'PlaypenSansDeva', sans-serif;
+    /* Police spécifique pour les titres h2 et h5 */
 }
 
 /* LE LOGO */
 #logo {
-    width: 100px; /*La taille du logo */
-    height: auto; /* Maintient les proportions du logo */
+    width: 120px;
+    /*La taille du logo */
+    height: auto;
+    /* Maintient les proportions du logo */
 }
 
 /* LA BANNIERE */
 #up {
     background-image: url('../img/coffee-hero.jpg');
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     min-height: 400px;
     /* position: relative; */
@@ -48,14 +53,53 @@ h5 {
     justify-content: center;
     align-items: center;
 
-    min-height: 400px; /* même hauteur que #up */
+    min-height: 400px;
+    /* même hauteur que #up */
 }
 
 /* COULEUR DU BODY */
-#temoignages {
-    background-color: #D3D3D3; /* Couleur de fond du body */
+/* #temoignages {
+    background-color: #D3D3D3;
+    
 
 
+} */
+
+/* LE MENU en mode responsible sous le logo hamburger */
+
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
 }
 
+/* Style personnalisé du bouton hamburger */
+.navbar-toggler {
+    width: 60px;
+    /* largeur carrée */
+    height: 60px;
+    /* hauteur carrée */
+    padding: 0;
+    /* on enlève le padding par défaut */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    /* pour coins arrondis */
+}
 
+/* Style personnalisé de l'icône hamburger */
+.navbar-toggler-icon {
+    width: 30px;
+    /* largeur de l’icône */
+    height: 30px;
+    /* hauteur de l’icône */
+    background-size: contain;
+    /* meilleure mise à l’échelle */
+}
+
+a.nav-link.active {
+    color: #000;
+    /* Couleur du lien actif */
+    font-weight: bold;
+    /* Met le lien actif en gras */
+}
